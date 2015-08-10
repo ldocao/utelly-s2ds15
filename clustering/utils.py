@@ -27,13 +27,11 @@ def add_to_list(list1, new_element):
     result: list
         1D list
     """
-
     return list1+becomes_list(new_element)
         
 
 
 def is_type(a,type):
     """Test if each element of list is of a given type"""
+    return [isinstance(i,type) for i in a]
 
-    result = [isinstance(i,type) for i in a]
-    return result

@@ -34,7 +34,7 @@ class Event():
 
             
 
-class Cluster():
+class Cluster(list):
     """Group found from clustering"""
 
     def __init__(self, members=[], keywords=[]):

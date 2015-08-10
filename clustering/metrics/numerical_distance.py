@@ -33,4 +33,3 @@ def _euclidean(event_a, event_b):
 
 
 
-
